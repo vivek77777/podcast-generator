@@ -1,12 +1,11 @@
 # Podcast Feed Generator
 This GitHub Action converts a YAML file into a valid podcast feed. YAML offers a more readable and writable format compared to XML, making this tool ideal for podcast feed generation.
 
-Getting Started
-1. Enable GitHub Pages
-Go to Settings > Pages in your repository, and set the main branch as the source. This will create a URL for your page and make the content in the main branch accessible. Save this URL for the next step.
-
-2. Create Your YAML File
-Add a YAML file to your repository with the following structure:
+# Getting Started
+  1. Enable GitHub Pages
+  Go to Settings > Pages in your repository, and set the main branch as the source. This will create a URL for your page and make the content in the main branch accessible. Save this URL for the next step.
+  2. Create Your YAML File
+  Add a YAML file to your repository with the following structure:
 
 yaml
 Copy code
