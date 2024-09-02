@@ -28,9 +28,7 @@ item:
 ``` 
 3. Create a Workflow File
 Set up a workflow file in your .github/workflows directory. Here’s a sample configuration:
-
-yaml
-Copy code
+```
 name: Generate Feed
 on:
   push:
@@ -47,6 +45,7 @@ jobs:
         
       - name: Run Feed Generator
         uses: your-username/podcast-feed-generator@main
+```
 Replace your-username with your GitHub username or organization.
 
 4. Action Configuration
