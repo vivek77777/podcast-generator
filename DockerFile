@@ -16,8 +16,7 @@ COPY feed.py /usr/bin/feed.py
 # Copy the entrypoint.sh script to the root directory
 COPY entrypoint.sh /entrypoint.sh
 
-# Make the entrypoint.sh script executable
-RUN chmod +x /entrypoint.sh
+
 
 # Set the entrypoint to the entrypoint.sh script
 ENTRYPOINT ["/entrypoint.sh"]
