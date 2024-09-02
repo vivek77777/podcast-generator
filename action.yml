@@ -3,7 +3,7 @@ author: "Ray Villalobos"
 description: "Generates a feed for a podcast from a YAML file"
 runs:
   using: "docker"
-  file: "Dockerfile"  # Points to your Dockerfile
+  image: "Dockerfile"  # Points to your Dockerfile
 
 branding:
   icon: "git-branch"
