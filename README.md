@@ -6,8 +6,8 @@ This GitHub Action converts a YAML file into a valid podcast feed. YAML offers a
   Go to Settings > Pages in your repository, and set the main branch as the source. This will create a URL for your page and make the content in the main branch accessible. Save this URL for the next step.
   2. Create Your YAML File
   Add a YAML file to your repository with the following structure:
-```yaml
-Copy code
+```
+yaml
 title: <Podcast Title>
 subtitle: <Podcast Subtitle>
 author: <Author Name>
