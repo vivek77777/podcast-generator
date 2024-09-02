@@ -11,4 +11,6 @@ python3 /usr/bin/feed.py
 git add -A && git commit -m "update feed"
 git push --set-upstream origin main
 
+chmod +x entrypoint.sh
+
 echo "================"
