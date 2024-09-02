@@ -51,8 +51,8 @@ Replace your-username with your GitHub username or organization.
 4. Action Configuration
 Ensure that the podcast-feed-generator action is available in your repository. You can use it directly or publish it to the GitHub Marketplace for broader use.
 
-Important Notes
+# Important Notes
 Verify that your YAML file is properly formatted to prevent any issues.
 Confirm that the GitHub Pages URL is correctly set up and accessible.
-License
+# License
 This project is licensed under the MIT License. See the LICENSE file for more details.
